@@ -21,7 +21,6 @@ body {
     height: 100vh;
     font-family: 'Staatliches', cursive;
     background-color: #F0F0F0;
-    text-align: center;
 }
 
 #logo {
@@ -98,7 +97,17 @@ body {
     flex-direction: column;
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width:768px) {
+h3 {
+    text-align: center;
+}
 
+.sideBarImage {
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (max-width:576px) {
+    .theLatest {
+        display: None;
+    }
 }
