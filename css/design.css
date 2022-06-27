@@ -101,9 +101,18 @@ h3 {
     text-align: center;
 }
 
+.tweet:before{
+    clear: both;
+}
+
 .sideBarImage {
     width: 150px;
     height: 150px;
+    /*float: right;*/
+}
+
+.sideBody{
+    float: right;
 }
 
 @media screen and (max-width:576px) {
@@ -111,3 +120,5 @@ h3 {
         display: None;
     }
 }
+
+
