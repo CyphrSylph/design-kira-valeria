@@ -5,7 +5,7 @@ https://stackoverflow.com/questions/31039979/css-units-what-is-the-difference-be
 body {
     height: 100vh;
     font-family: 'Staatliches', cursive;
-    background-color:lightgray;
+    background-color: #F0F0F0;
 }
 
 /* row color */
@@ -47,16 +47,25 @@ div.tall-row {
     border-radius: 100%;
     width: 80px;
     height: 80px;
+    color: white;
     text-align: center;
     margin-bottom: 20px;
     line-height: 4.3em;
     border: solid 5px white;
 }
 
-#box1{
+#designColor{
     background-color: #E6563B;
 }
 
-#box2{
+#developColor {
     background-color: #EB9D3A;
+}
+
+#supportColor {
+    background-color: #7CB06C;
+}
+
+#hostColor {
+    background-color: #00ABA9;
 }
