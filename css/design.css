@@ -21,6 +21,7 @@ body {
     height: 100vh;
     font-family: 'Staatliches', cursive;
     background-color: #F0F0F0;
+    text-align: center;
 }
 
 #logo {
