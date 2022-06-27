@@ -4,6 +4,7 @@ https://stackoverflow.com/questions/31039979/css-units-what-is-the-difference-be
  */
 body {
     height: 100vh;
+    font-family: 'Staatliches', cursive;
 }
 /* row color */
 div.row {
@@ -15,4 +16,20 @@ div.row > div {
 }
 div.tall-row {
     height: 300px;
+}
+#logo {
+    width:2em;
+    margin:.5em;
+}
+#place-column{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.navbar{
+    background-color:#E6FFFA!important;
+}
+.row{
+    border-radius: 2em;
+    border-style: solid;
 }
