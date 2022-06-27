@@ -101,9 +101,9 @@ h3 {
     text-align: center;
 }
 
-.tweet:before{
-    clear: both;
-}
+/*.tweet:before{*/
+/*    clear: both;*/
+/*}*/
 
 .sideBarImage {
     width: 150px;
@@ -111,13 +111,13 @@ h3 {
     /*float: right;*/
 }
 
-.sideBody{
-    float: right;
-}
+/*.sideBody{*/
+/*    float: right;*/
+/*}*/
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:992px) {
     .theLatest {
-        display: None;
+        visibility: hidden;
     }
 }
 
