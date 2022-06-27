@@ -2,12 +2,6 @@
 vh vs. % article
 https://stackoverflow.com/questions/31039979/css-units-what-is-the-difference-between-vh-vw-and
  */
-body {
-    height: 100vh;
-    font-family: 'Staatliches', cursive;
-    background-color: #F0F0F0;
-}
-
 /* row color */
 div.row {
     border: 1px dashed blue;
@@ -22,6 +16,13 @@ div.tall-row {
     height: 300px;
 }
 
+/* CSS BELOW HERE*/
+body {
+    height: 100vh;
+    font-family: 'Staatliches', cursive;
+    background-color: #F0F0F0;
+}
+
 #logo {
     width:2em;
     margin:.5em;
@@ -34,7 +35,7 @@ div.tall-row {
 }
 
 .navbar{
-    background-color:#E6FFFA!important;
+    background-color: #F0F0F0!important;
 }
 
 .my-row {
@@ -43,13 +44,12 @@ div.tall-row {
     justify-content: space-around;
 }
 .box {
-    background-color: #00ABA9;
     border-radius: 100%;
     width: 80px;
     height: 80px;
     color: white;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 0px 20px;
     line-height: 4.3em;
     border: solid 5px white;
 }
@@ -69,9 +69,35 @@ div.tall-row {
 #hostColor {
     background-color: #00ABA9;
 }
+
  .pictures{
     text-align: center;
+     margin: 0px 20px;
 }
+
 .featured{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px 30px;
+}
+
+.smolBox {
+    display: inline-block;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    color: black;
+    text-align: center;
+    line-height: 1;
+}
+
+.projectBox {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
 
 }
