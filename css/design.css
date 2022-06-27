@@ -6,30 +6,46 @@ body {
     height: 100vh;
     font-family: 'Staatliches', cursive;
 }
+
 /* row color */
 div.row {
     border: 1px dashed blue;
 }
+
 /* cell color */
 div.row > div {
     border: 1px solid red;
 }
+
 div.tall-row {
     height: 300px;
 }
+
 #logo {
     width:2em;
     margin:.5em;
 }
+
 #place-column{
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
 }
+
 .navbar{
     background-color:#E6FFFA!important;
 }
-.row{
-    border-radius: 2em;
-    border-style: solid;
+
+.my-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box {
+    background-color: #0fb784;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 20px;
 }
