@@ -2,7 +2,7 @@
 body {
     height: 100vh;
     font-family: 'Staatliches', cursive;
-    background-color: #F0F0F0;
+    background-color: #BDE7FB;
 }
 
 #logo {
@@ -17,7 +17,7 @@ body {
 }
 
 .navbar{
-    background-color: #F0F0F0!important;
+    background-color: #BDE7FB!important;
 }
 
 .my-row {
@@ -37,19 +37,19 @@ body {
 }
 
 .designColor{
-    background-color: #E6563B;
+    background-color: #9EA9D2;
 }
 
 .developColor {
-    background-color: #EB9D3A;
+    background-color: #9988B5;
 }
 
 .supportColor {
-    background-color: #7CB06C;
+    background-color: #956890;
 }
 
 .hostColor {
-    background-color: #00ABA9;
+    background-color: #8B4966;
 }
 
  .pictures{
@@ -81,8 +81,9 @@ body {
 }
 
 .waifu {
-
+    border-radius: 10px;
 }
+
 h3 {
     text-align: center;
 }
@@ -96,12 +97,21 @@ h3 {
     height: 75px;
     float: left;
     margin-right: .5em;
+    border-radius: 5px;
 }
 
-@media screen and (min-width:508px) {
-    .theLatest {
-        visibility: hidden;
-    }
+hr {
+    height: 5px;
+    background-color: #A8C9E9;
 }
+
+/*@media screen and (min-width:508px) {*/
+/*    .theLatest {*/
+/*        visibility: hidden;*/
+/*    }*/
+/*    hr {*/
+/*        visibility: hidden;*/
+/*    }*/
+/*}*/
 
 
