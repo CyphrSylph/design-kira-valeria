@@ -84,13 +84,20 @@ body {
     border-radius: 10px;
 }
 
+h1{
+    background: -webkit-linear-gradient(#9EA9D2,#8B4966);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 h3 {
     text-align: center;
 }
 
-/*.tweet:before{*/
-/*    clear: both;*/
-/*}*/
+.line{
+    height: 5px;
+    background-color: #A8C9E9;
+}
 
 .sideBarImage {
     width: 75px;
@@ -100,10 +107,6 @@ h3 {
     border-radius: 5px;
 }
 
-hr {
-    height: 5px;
-    background-color: #A8C9E9;
-}
 
 /*@media screen and (min-width:508px) {*/
 /*    .theLatest {*/
